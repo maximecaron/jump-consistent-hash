@@ -8,7 +8,7 @@ Paper: [http://arxiv.org/ftp/arxiv/papers/1406/1406.2294.pdf](http://arxiv.org/f
 
 ## Usage
 
-To use, simply import `"github.com/anachronistic/jump-consistent-hash"`  and call `Hash`, passing a `uint64` key and an `int32` number of buckets; the function will return an `int32`, as shown below.
+To use, import the package and call `Hash`, passing a `uint64` key and an `int32` number of buckets; the function will return an `int32`, as shown below.
 
 ```go
 package main
